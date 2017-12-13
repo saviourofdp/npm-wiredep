@@ -1,12 +1,12 @@
 {
-  "name": "wiredep",
+  "name": "npm-wiredep",
   "version": "4.0.0",
   "main": "./wiredep.js",
   "description": "Wire Bower dependencies to your source code.",
-  "repository": "taptapship/wiredep",
+  "repository": "viscomd/npm-wiredep",
   "author": {
-    "name": "Stephen Sawchuk",
-    "email": "sawchuk@gmail.com"
+    "name": "David Viscomi",
+    "email": "djviscomi@gmail.com"
   },
   "keywords": [
     "bower",
