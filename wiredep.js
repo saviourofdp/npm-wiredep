@@ -2,7 +2,6 @@
 
 var $ = {
   _: require('lodash'),
-  'bower-config': require('bower-config'),
   fs: require('fs'),
   glob: require('glob'),
   lodash: require('lodash'),
@@ -101,7 +100,7 @@ function mergeFileTypesWithDefaults(optsFileTypes) {
 }
 
 function findNodeDirectory(cwd) {
-  var directory = $.path.join(cwd, ($['node-config'].read(cwd).directory || 'node_modules'));
+  var directory = $.path.join(cwd, 'node_modules');
 
   if (!$.fs.existsSync(directory)) {
     var error = new Error('Cannot find where you keep your Node packages.');
