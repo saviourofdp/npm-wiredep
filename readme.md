@@ -5,6 +5,7 @@ most instrucitons below are similar to that of [wiredep](https://github.com/tapt
 ## Getting Started
 Install the module with [npm](https://npmjs.org):
 
+
 ```bash
 $ npm install --save npm-wiredep
 ```
