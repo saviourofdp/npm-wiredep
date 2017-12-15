@@ -1,6 +1,6 @@
 {
   "name": "npm-wiredep",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./npm-wiredep.js",
   "description": "Wire Bower dependencies to your source code.",
   "repository": "viscomd/npm-wiredep",
@@ -19,7 +19,7 @@
   "files": [
     "lib/",
     "LICENSE",
-    "wiredep.js"
+    "npm-wiredep.js"
   ],
   "license": "MIT",
   "scripts": {
