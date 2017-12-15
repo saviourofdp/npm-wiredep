@@ -1,4 +1,4 @@
-#npm-wiredep
+# npm-wiredep
 a fork of [wiredep](https://github.com/taptapship/wiredep) intended for injecting node-modules in a bower-like fashion
 most instrucitons below are similar to that of [wiredep](https://github.com/taptapship/wiredep)
 
